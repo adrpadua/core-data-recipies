@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="93" id="ySd-x0-orr">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="RecipeCell" rowHeight="93" id="ySd-x0-orr" customClass="RecipeCell" customModule="core_data_recipies" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="92" width="600" height="93"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ySd-x0-orr" id="d3x-zn-3PW">
@@ -55,6 +55,10 @@
                                                 <constraint firstAttribute="bottom" secondItem="LgY-db-DH9" secondAttribute="bottom" id="kLB-KZ-lrD"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="recipeImg" destination="LgY-db-DH9" id="D8R-db-0Ab"/>
+                                            <outlet property="recipeTitle" destination="Owj-LJ-xaz" id="0Al-pP-Abt"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
