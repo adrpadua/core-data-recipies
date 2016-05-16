@@ -16,6 +16,7 @@
 		A0C2D5C21CE9B19900D75383 /* Recipe+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D5C01CE9B19900D75383 /* Recipe+CoreDataProperties.swift */; };
 		A0C2D5C31CE9B19900D75383 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D5C11CE9B19900D75383 /* Recipe.swift */; };
 		A0C2D5C51CE9B47E00D75383 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D5C41CE9B47E00D75383 /* RecipeCell.swift */; };
+		A0C2D5C71CEA2F8400D75383 /* CreateRecipeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C2D5C61CEA2F8400D75383 /* CreateRecipeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		A0C2D5C01CE9B19900D75383 /* Recipe+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Recipe+CoreDataProperties.swift"; path = "../Recipe+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		A0C2D5C11CE9B19900D75383 /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Recipe.swift; path = ../Recipe.swift; sourceTree = "<group>"; };
 		A0C2D5C41CE9B47E00D75383 /* RecipeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		A0C2D5C61CEA2F8400D75383 /* CreateRecipeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateRecipeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				A0C2D5AA1CE9AAB000D75383 /* ViewController.swift */,
+				A0C2D5C61CEA2F8400D75383 /* CreateRecipeVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 				A0C2D5C21CE9B19900D75383 /* Recipe+CoreDataProperties.swift in Sources */,
 				A0C2D5B11CE9AAB000D75383 /* core_data_recipies.xcdatamodeld in Sources */,
 				A0C2D5C51CE9B47E00D75383 /* RecipeCell.swift in Sources */,
+				A0C2D5C71CEA2F8400D75383 /* CreateRecipeVC.swift in Sources */,
 				A0C2D5A91CE9AAB000D75383 /* AppDelegate.swift in Sources */,
 				A0C2D5C31CE9B19900D75383 /* Recipe.swift in Sources */,
 			);
